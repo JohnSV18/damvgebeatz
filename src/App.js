@@ -1,16 +1,13 @@
-import logo from './logo.svg';
-import WhatName from './Navbar/navbar';
+import MainNavBar from './components/Navbar/navbar';
+import Home from './components/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './App.css';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-
-      <header className="App-header">
-        
-      </header>
-      <WhatName />
+      <MainNavBar />
+      <Home />
     </div>
   );
 }
