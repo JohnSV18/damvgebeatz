@@ -12,7 +12,7 @@ function Footer () {
                     <div className="row">
                         <div className="col-md-6 mt-md-0 mt-3">
                             <h5 className="text-uppercase">Contact</h5>
-                            <p>For bookings and inquiies, send me and email at OfficialDamvgeBeatz@gmail.com</p>
+                            <p>For bookings and inquiries, send me an email at <a href="mailto:officialdamvgebeatz@gmail.com">OfficialDamvgeBeatz@gmail.com</a></p>
                         </div>
 
                         <hr className="clearfix w-100 d-md-none pb-0"/>
