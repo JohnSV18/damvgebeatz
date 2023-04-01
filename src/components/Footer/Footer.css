@@ -3,3 +3,37 @@
     color: white;
 
 }
+
+/* For screens smaller than or equal to 576px (e.g. mobile devices) */
+@media (max-width: 576px) {
+    .page-footer {
+      padding: 20px; /* Decrease padding to make it more compact */
+      text-align: center; /* Center align the content */
+      font-size: 14px; /* Decrease font size */
+    }
+  }
+  
+  /* For screens between 577px and 991px (e.g. tablets) */
+@media (min-width: 577px) and (max-width: 991px) {
+    .page-footer {
+      padding: 30px; /* Increase padding to give it more breathing room */
+      text-align: left; /* Left align the content */
+      font-size: 16px; /* Increase font size */
+    }
+  }
+  
+  /* For screens between 992px and 1199px (e.g. small laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .page-footer {
+      padding: 40px; /* Increase padding further */
+      font-size: 18px; /* Increase font size further */
+    }
+  }
+  
+  /* For screens between 1200px and 2048px (e.g. large laptops and desktops) */
+@media (min-width: 1200px) and (max-width: 2048px) {
+    .page-footer {
+      padding: 50px; /* Increase padding even further */
+      font-size: 20px; /* Increase font size even further */
+    }
+  }

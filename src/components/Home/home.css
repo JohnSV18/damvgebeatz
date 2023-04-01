@@ -1,4 +1,4 @@
-.hero-container {
+/* .hero-container {
     background: url('../../assets//img/darkMusic.jpg')center/cover no-repeat;
     height: 100vh;
     width: 100%;
@@ -33,5 +33,189 @@
     color: white;
     display: flex;
     align-items: center;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+.hero-container {
+height: auto;
+background-position: center;
+background-size: cover;
+box-shadow: none;
+padding: 30px;
+}
+.miniIntro {
+width: 100%;
+}
+.blazeplayer {
+height: 300px;
+}
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+.hero-container {
+height: auto;
+background-position: center;
+background-size: cover;
+box-shadow: none;
+padding: 30px;
+}
+.miniIntro {
+width: 100%;
+}
+.blazeplayer {
+height: 400px;
+}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+.hero-container {
+height: auto;
+background-position: center;
+background-size: cover;
+box-shadow: none;
+padding: 30px;
+}
+.miniIntro {
+width: 100%;
+}
+.blazeplayer {
+height: 500px;
+}
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+.hero-container {
+height: 100vh;
+background-position: center;
+background-size: cover;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+padding: 0;
+}
+.miniIntro {
+width: 800px;
+}
+.blazeplayer {
+height: 550px;
+}
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+.hero-container {
+height: 100vh;
+background-position: center;
+background-size: cover;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+padding: 0;
+}
+.miniIntro {
+width: 800px;
+}
+.blazeplayer {
+height: 550px;
+}
+} */
+/* For screens smaller than 768px (e.g. mobile devices) */
+/* .hero-container {
+    background-image: url('../../assets//img/darkMusic.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+  
+@media (max-width: 768px) {
+    .hero-container {
+      height: 80%;
+      min-height: 500px;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+
+
+
+
+
+  -------
+
+
+
+
+
+
+
+  
+   */
+  /* Common styles for all screen sizes */
+  /* .hero-container {
+    background-image: url('../../assets//img/darkMusic.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    width: 100%;
+  }
+   */
+
+
+
+.hero-container {
+    background-image: url('../../assets/img/darkMusic.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+@media (max-width: 768px) {
+    .hero-container {
+      height: 80%;
+      min-height: 500px;
+    }
+  }
+
+.beatsButton {
+    background-color: rgb(208, 50, 210);
+    border-color: white;
+    font-size: large;
 }
 
+.mainHeader {
+    color: white;
+    font-family: Rock Salt;
+}
+
+.miniIntro {
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+}
+
+.blazeplayer {
+    height: 550px;
+}
+
+.beatstarsSocial {
+    color: white;
+    display: flex;
+    align-items: center;
+}
